@@ -1,8 +1,58 @@
 * {
     box-sizing: border-box;
+    background-color: gray;
+    border-radius: 10px;
+
 }
-.board {
-    height: 500px;
-    width: 400px;
-    border: 3px solid red;
+body {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Case {
+    height:60%;
+    width: 22%;
+    border: 3px solid beige;
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0;
+    box-shadow: 10px 10px 75px rgb(131, 247, 16);;
+}
+#display {
+    height: 16.5%;
+    width: 90%;
+    margin-top: 18px;
+    border: 2px solid beige;
+    font-size: 28px;
+    padding: 5px;
+    box-shadow: 10px 10px 75px rgb(131, 247, 16);;
+
+}
+.Keypad {
+    height:68%;
+    width: 85%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: space-between;
+    box-shadow: 10px 10px 75px rgb(131, 247, 16);;
+
+}
+.button {
+    height: 22%;
+    width: 22%;
+    margin: 3px;
+    border: 2px solid beige;
+    background-color: rgb(128, 121, 121);
+    font-size: 24px;
+    box-shadow: 10px 10px 75px rgb(131, 247, 16);;
+
+}
+button:active {
+    background-color: aqua;
 }
